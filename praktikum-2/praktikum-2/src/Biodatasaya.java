@@ -1,13 +1,13 @@
 public class Biodatasaya {
     public static void main(String[] args) {
 
-        // Menampilkan nama mahasiswa
-        System.out.println("Nama          : Muhammad Humam");
+        // Menampilkan nama mahasiswa dan nim pada satu baris
+        System.out.print("Muhammad Humam");
 
-        // Menampilkan NIM
-        System.out.println("NIM           : 2025573010036");
+        // tanda pemisah antara nama dan nim
+        System.out.print(" - ");
 
-        // menampilkan program studi
-        System.out.println("Program Studi : Teknik Informatika");
+        System.out.print("2025573010036");
+
     }
 }
