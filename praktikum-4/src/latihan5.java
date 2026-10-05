@@ -2,34 +2,29 @@ import java.util.Scanner;
 public class latihan5 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.print("Masukkan jumlah array: ");
+        System.out.print("masukkan jumlah elemen: ");
         int n = input.nextInt();
-
         int[] angka = new int[n];
-
         for (int i = 0; i < n; i++) {
-            System.out.print("Angka ke-" + (i + 1) + ": ");
+            System.out.print("elemen ke-" + (i + 1) + ": ");
             angka[i] = input.nextInt();
         }
-
-        int terbesar = angka[0];
-        int terbesarKedua = Integer.MIN_VALUE;
-
-        for (int i = 1; i < n; i++) {
-            if (angka[i] > terbesar) {
-                terbesarKedua = terbesar;
+        int terbesar = Integer.MIN_VALUE;
+        int terbesarkedua = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++){
+            if (angka[i] > terbesar){
+                terbesarkedua = terbesar;
                 terbesar = angka[i];
-            } else if (angka[i] > terbesarKedua && angka[i] != terbesar) {
-                terbesarKedua = angka[i];
+            } else if (angka[i] > terbesarkedua && angka[i] != terbesar) {
+                terbesarkedua = angka[i];
             }
         }
-
-        if (terbesarKedua == Integer.MIN_VALUE) {
-            System.out.println("Tidak ada nilai terbesar kedua.");
+        if (terbesarkedua == Integer.MIN_VALUE) {
+            System.out.println("tidak adanilai terbesar kedua.");
         } else {
-            System.out.println("Nilai terbesar = " + terbesar);
-            System.out.println("Nilai terbesar kedua = " + terbesarKedua);
+            System.out.println("nilai terbesar = " + terbesar);
+            System.out.println("nilai terbesar kedua = " + terbesarkedua);
         }
     }
+
 }
