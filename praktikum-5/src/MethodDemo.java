@@ -1,10 +1,9 @@
 public class MethodDemo {
-    static void sapa() {
-        System.out.println("halo, selamat datang!");
+    static void tampilkanBiodata(String nama, int umur, String kota) {
+        System.out.println(nama + " (" + umur + " tahun)" + kota);
     }
     public static void main(String[] args) {
-        sapa();
-        sapa();
-        sapa();
+        //panggil pada method main
+        tampilkanBiodata("budi", 20, "bandung");
     }
 }
