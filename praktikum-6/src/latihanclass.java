@@ -3,9 +3,9 @@ public class latihanclass {
         mahasiswa m1 = new mahasiswa(); // membuat object
 
         mahasiswa m2 = new mahasiswa("budi ", "12345", 3.50);
+        m2.tampilkandata();
 
-        System.out.println(m1.nama + " - " + m1.ipk);
-        System.out.println(m2.nama + " - " + m2.ipk);
+        System.out.println("Cumlaude ? " + m2.iscumloade());
 
     }
 }
