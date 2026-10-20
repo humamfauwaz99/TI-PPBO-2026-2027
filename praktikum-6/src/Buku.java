@@ -1,17 +1,16 @@
 public class Buku {
     String judul;
     String pengarang;
-    int tahunterbit;
+    int TahunTerbit;
 
-    public Buku (String judul, String pengarang, int tahunterbit){
+    public Buku (String judul, String pengarang, int TahunTerbit){
         this.judul = judul;
         this.pengarang = pengarang;
-        this.tahunterbit = tahunterbit;
+        this.TahunTerbit = TahunTerbit;
     }
-
-    public void tampilkandata() {
-        System.out.println("judul : " + judul);
-        System.out.println("pengarang : " + pengarang);
-        System.out.println("tahun terbit : " + tahunterbit);
+    public void tampildata(){
+        System.out.println("judul: " + judul);
+        System.out.println("pengarang: " + pengarang);
+        System.out.println("tahhun terbit: " + TahunTerbit);
     }
 }
