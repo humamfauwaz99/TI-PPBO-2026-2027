@@ -5,8 +5,13 @@ public class latihanclass {
         m1.nim = "2025573010036";
         m1.ipk = 3.42;
 
-        System.out.println("nama : " + m1.nama);
-        System.out.println("nim : " + m1.nim);
-        System.out.println("IPK : " + m1.ipk);
+        mahasiswa m2 = new mahasiswa();
+        m2.nama = "budi";
+        m2.nim = "12345";
+        m2.ipk = 3.50;
+
+        System.out.println(m1.nama + " - " + m1.ipk);
+        System.out.println(m2.nama + " - " + m2.ipk);
+
     }
 }
