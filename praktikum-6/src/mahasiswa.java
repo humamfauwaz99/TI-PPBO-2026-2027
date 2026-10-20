@@ -9,9 +9,9 @@ public class mahasiswa  {
         ipk = 0.0;
     }
 
-    public mahasiswa(String namaAwal, String nimAwal, double ipkAwal) {
-        nama = namaAwal;
-        nim = nimAwal;
-        ipk = ipkAwal;
+    public mahasiswa(String nama, String nim, double ipk) {
+        this.nama = nama;
+        this.nim = nim;
+        this.ipk = ipk;
     }
 }
