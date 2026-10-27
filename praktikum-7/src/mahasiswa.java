@@ -14,6 +14,15 @@ public class mahasiswa  {
         this.nim = nim;
         this.ipk = ipk;
     }
+    public String getNama() {
+        return nama;
+    }
+    public String getNim(){
+        return nim;
+    }
+    public double getIpk(){
+        return ipk;
+    }
     public void tampilkandata() {
         System.out.println("nama : " + nama);
         System.out.println("nim : " + nim);
