@@ -6,5 +6,8 @@ public class manager extends pegawai{
         System.out.println("2.constructor manager dijalankan");
         this.tunjanganjabatan = tunjanganjabatan;
     }
+    public void tampilkanrigkasan() {
+        System.out.println("manager: " + nama);
+    }
 
 }
