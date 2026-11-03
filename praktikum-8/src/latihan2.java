@@ -1,10 +1,10 @@
 public class latihan2 {
     public static void main(String[] args) {
-        mobil mobil = new mobil();
+        mobil mobil = new mobil("Toyota", 180, 4);
         mobil.merek = "toyota";
         mobil.kecepatanmaks = 180;
 
-        motor motor = new motor();
+        motor motor = new motor("honda",120, "matic");
         motor.merek = "honda";
         motor.kecepatanmaks = 120;
 
