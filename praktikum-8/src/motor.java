@@ -5,4 +5,9 @@ public class motor extends  kendaraan{
         super(merek, kecepatanmaks);
         this.jenismotor = jenismotor;
     }
+    public void tampilkaninfo() {
+        System.out.println("merek: " + merek);
+        System.out.println("kecepatan maksimun: " + kecepatanmaks);
+        System.out.println("jenis motor: " + jenismotor);
+    }
 }
