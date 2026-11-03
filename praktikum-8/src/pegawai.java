@@ -4,6 +4,7 @@ public class pegawai {
     protected  double gajipokok;
 
     public pegawai(String nama, String nip, double gajipokok) {
+        System.out.println("1. constructor pegawai dijalankan");
         this.nama = nama;
         this.nip = nip;
         this.gajipokok = gajipokok;
