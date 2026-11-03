@@ -1,7 +1,7 @@
 public class pegawai {
-    private String nama;
-    private String nip;
-    private double gajipokok;
+    protected String nama;
+    protected String nip;
+    protected double gajipokok;
 
     public pegawai(String nama, String nip, double gajipokok) {
         System.out.println("1. constructor pegawai dijalankan");
