@@ -4,6 +4,7 @@ public class penggajiandemo {
                 new manager ("budi", "m001", 3000000, 1000000),
                 new staff("siti", "s001", 2000000, 500000),
                 new staff("andi", "s002", 2000000, 300000),
+                new direktur("rudi", "d001", 4000000, 3000000, 2000000),
         };
         double totalgaji = 0;
         for (pegawai pg : daftarpegawai) {
@@ -11,6 +12,6 @@ public class penggajiandemo {
             System.out.println(pg.nama + ": " + gaji);
             totalgaji += gaji;
         }
-        System.out.println("total gaji: " + totalgaji);
+        System.out.println("total gaji: " + String.format("%.1f", totalgaji));
     }
 }
